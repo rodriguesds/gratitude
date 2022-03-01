@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    font-family: 'Dancing Script', cursive;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(159, 57, 255), rgb(255, 2, 213), rgb(255, 255, 59));
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    width: 100px;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 3px 3px 3px rgb(19, 18, 18);
+}
+
+.menu li a {
+    color:rgb(255, 255, 255) ;
+    display: block;
+    padding: 10px;
+    
+}
+
+#principal{
+
+    font-family: 'Dancing Script', cursiva;
+    display: flex;
+    max-width: 800px ;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 15 px;
+}
+
+#principal h1{
+    color:rgb(255, 255, 255) ;
+    text-shadow: 3px 3px 3px rgb(19, 18, 18);
+    font-size: 80px;
+    margin: 30px;
+    width: auto;
+    max-width: 600px;
+}
+
+.artigo{
+    font-size: 40px;
+    width: auto;
+    max-width: 600px;
+}
+
+/* section gallery*/
+
+#secGaleria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#secGaleria h2{
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 10px;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px rgb(19, 18, 18);
+}
+
+#gallery{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.gallery{
+    margin: 0 auto;
+    width: auto;
+    max-width: 300px;
+}
+
+
+.gallery img {
+    width: 190px;
+    padding: 10px;
+}
+
+/*footer*/
+
+#footer{
+    padding: 30px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.contatos{
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.contatos a{
+    color: #000;
+    margin: 10px;
+    display: block;
+    padding: 10px;
+}
+
+.contatos a:hover{
+    color: rgb(159, 57, 255);
+    margin: 10px;
+    display: block;
+    padding: 10px;
+}
+
+.contatos img{
+    width: 30px;
+} 
