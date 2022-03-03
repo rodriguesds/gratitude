@@ -7,9 +7,9 @@
     list-style: none;
 }
 
-/*body{
-    background-image: linear-gradient(to bottom right, rgb(159, 57, 255), rgb(255, 2, 213), rgb(255, 255, 59));
-}*/
+body{
+    background-image: linear-gradient(to bottom ,#fff, rgb(255, 2, 213), rgb(255, 255, 59));
+}
 .cabecalho{
     display: flex;
     align-items: center;
@@ -26,18 +26,18 @@
     gap: 40px;
     font-size: 40px;
     font-weight: 500;
-    text-shadow: 3px 3px 3px rgb(19, 18, 18);
+    text-shadow: 1px 1px 1px rgb(19, 18, 18);
 }
 
 .menu li a {
-    color:rgba(255, 238, 0, 0.582) ;
+    color:rgba(249, 252, 55, 0.884); ;
     display: block;
     padding: 10px;
     
 }
 
 .menu li a:hover{
-    color: rgb(159, 57, 255);
+    color: rgb(57, 166, 255);
     display: block;
     padding: 10px;
 }
@@ -57,7 +57,7 @@
 }
 
 #principal h1{
-    color:rgba(200, 133, 255, 0.596) ;
+    color:rgba(140, 55, 252, 0.884);
     text-shadow: 3px 3px 3px rgb(19, 18, 18);
     font-size: 80px;
     margin: 30px;
@@ -82,7 +82,7 @@
 }
 
 #secGaleria h2{
-    color: rgba(200, 133, 255, 0.596);
+    color: rgba(140, 55, 252, 0.884);
     padding: 15px;
     margin: 10px;
     font-size: 60px;
