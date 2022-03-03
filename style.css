@@ -7,13 +7,14 @@
     list-style: none;
 }
 
-body{
+/*body{
     background-image: linear-gradient(to bottom right, rgb(159, 57, 255), rgb(255, 2, 213), rgb(255, 255, 59));
-}
+}*/
 .cabecalho{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-bottom: 3px solid rgba(175, 175, 175, 0.185);
 }
 
 #logo{
@@ -29,10 +30,16 @@ body{
 }
 
 .menu li a {
-    color:rgb(255, 255, 255) ;
+    color:rgba(255, 238, 0, 0.582) ;
     display: block;
     padding: 10px;
     
+}
+
+.menu li a:hover{
+    color: rgb(159, 57, 255);
+    display: block;
+    padding: 10px;
 }
 
 #principal{
@@ -50,7 +57,7 @@ body{
 }
 
 #principal h1{
-    color:rgb(255, 255, 255) ;
+    color:rgba(200, 133, 255, 0.596) ;
     text-shadow: 3px 3px 3px rgb(19, 18, 18);
     font-size: 80px;
     margin: 30px;
@@ -62,6 +69,7 @@ body{
     font-size: 40px;
     width: auto;
     max-width: 600px;
+    border-bottom: 3px solid rgba(175, 175, 175, 0.185);
 }
 
 /* section gallery*/
@@ -74,11 +82,12 @@ body{
 }
 
 #secGaleria h2{
-    color: rgb(255, 255, 255);
+    color: rgba(200, 133, 255, 0.596);
     padding: 15px;
     margin: 10px;
     font-size: 60px;
     text-shadow: 3px 3px 3px rgb(19, 18, 18);
+
 }
 
 #gallery{
@@ -111,7 +120,7 @@ body{
 }
 
 .contatos{
-
+    border-TOP: 3px solid rgba(175, 175, 175, 0.185);
     font-size: 30px;
     display: flex;
     align-items: center;
